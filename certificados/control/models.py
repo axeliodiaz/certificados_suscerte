@@ -8,7 +8,7 @@ class Certificado(models.Model):
     persona = models.ForeignKey(settings.AUTH_USER_MODEL)
     desde = models.DateField()
     hasta = models.DateField()
-    revocacion = models.CharField(max_length=10)
+    revocacion = models.CharField(max_length=15)
 
     class Meta:
         db_table = 'certificado'
