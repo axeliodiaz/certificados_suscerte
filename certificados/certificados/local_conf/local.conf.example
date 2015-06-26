@@ -12,6 +12,16 @@ EMAIL_HOST_PASSWORD = '' # CONTRASEÑA DE CORREO
 EMAIL_SUBJECT_PREFIX = '[SUSCERTE] ' # PREFIJO DE CADA ASUNTO
 DEFAULT_FROM_EMAIL = 'tecnica@suscerte.gob.ve' # EMAIL POR DEFECTO DEL EMISOR
 
+DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': '',
+            'USER': '',
+            'PASSWORD': '',
+            'HOST': 'localhost',
+            'PORT': '5432',
+            }
+}
 
 CACHES={
         'default':{
