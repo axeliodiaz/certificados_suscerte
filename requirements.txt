@@ -1,2 +1,3 @@
 django
 psycopg2
+django-suit==0.2.13
