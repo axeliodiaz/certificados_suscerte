@@ -10,4 +10,4 @@ class Persona(AbstractUser):
         db_table = 'persona'
 
     def __unicode__(self):
-        return u'%s - %s %s' % (self.cedula, self.first_name, self.last_name)
+        return u'%s %s' % (self.first_name, self.last_name)
